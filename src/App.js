@@ -1,7 +1,9 @@
+import BarraDeNavegacion from "./components/layout/BarraDeNavegacion";
+
 function App() {
   return (
     <div>
-      <h1>Xd</h1>
+      <BarraDeNavegacion />
     </div>
   );
 }
