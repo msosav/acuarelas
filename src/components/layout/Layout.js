@@ -1,10 +1,12 @@
 import BarraDeNavegacion from "./BarraDeNavegacion";
 
+import classes from "./Layout.css";
+
 function Layout(props) {
   return (
-    <div>
+    <div className="container">
       <BarraDeNavegacion />
-      <main>{props.children}</main>
+      <main className="main">{props.children}</main>
     </div>
   );
 }

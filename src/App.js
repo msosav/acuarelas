@@ -7,15 +7,13 @@ import SobreMi from "./components/pages/SobreMi";
 
 function App() {
   return (
-    <div>
-      <Layout>
-        <Routes>
-          <Route path="/" element={<Inicio />} />
-          <Route path="/sobre-mi" element={<SobreMi />} />
-          <Route path="/contacto" element={<Contacto />} />
-        </Routes>
-      </Layout>
-    </div>
+    <Layout>
+      <Routes>
+        <Route path="/" element={<Inicio />} />
+        <Route path="/sobre-mi" element={<SobreMi />} />
+        <Route path="/contacto" element={<Contacto />} />
+      </Routes>
+    </Layout>
   );
 }
 
